@@ -100,3 +100,13 @@ Personal learning project under active development. Provider availability, API q
 - Add clearer setup instructions and usage examples.
 - Organize provider integrations into separate modules.
 - Add automated tests and screenshots of working features.
+
+## Demo
+
+![Raspberry Pi Multi-AI Hub](demo/4.png)
+
+![Raspberry Pi Multi-AI Hub](demo/3.png)
+
+![Raspberry Pi Multi-AI Hub](demo/2.png)
+
+
