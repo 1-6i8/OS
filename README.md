@@ -103,10 +103,11 @@ Personal learning project under active development. Provider availability, API q
 
 ## Demo
 
+Start manu
 ![Raspberry Pi Multi-AI Hub](demo/4.png)
-
+Chat with Gemma local ai
 ![Raspberry Pi Multi-AI Hub](demo/3.png)
-
+detail of Gemma
 ![Raspberry Pi Multi-AI Hub](demo/2.png)
 
 
