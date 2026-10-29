@@ -8,7 +8,7 @@ Raspberry Pi Multi-AI Hub is a personal project focused on running and managing 
 
 The goal is to provide a unified terminal interface for selecting AI services and sending prompts, while exploring the trade-offs between local inference and cloud-based AI.
 
-## Features
+## Features	
 
 - **Terminal UI:** Interact with AI services through a command-line menu.
 - **AI Registry:** Store AI service configuration in `aiRegistry.json`.
@@ -71,16 +71,6 @@ The project structure may evolve as provider logic and configuration are organiz
 - Secret files and the Python virtual environment are excluded through `.gitignore`.
 - Never commit API keys, access tokens, or other credentials.
 
-## How to Run
-
-1. Clone the repository.
-2. Install Python and the required dependencies.
-3. Create a local `.env` file with the environment variables required by your selected cloud provider.
-4. Ensure Ollama is running if you want to use local models.
-5. Run the application using Python.
-
-Exact installation commands and required environment variables will be documented after the dependencies and configuration are verified.
-
 ## What I Learned
 
 - Working with Linux on Raspberry Pi.
@@ -89,6 +79,7 @@ Exact installation commands and required environment variables will be documente
 - Integrating local AI inference and cloud AI APIs.
 - Designing a terminal-based application and a JSON-based AI registry.
 - Using Git and GitHub to version and publish a software project.
+- Config API key.
 
 ## Current Status
 
@@ -107,7 +98,12 @@ Start manu
 ![Raspberry Pi Multi-AI Hub](demo/4.png)
 Chat with Gemma local ai
 ![Raspberry Pi Multi-AI Hub](demo/3.png)
-detail of Gemma
+Detail of Gemma
 ![Raspberry Pi Multi-AI Hub](demo/2.png)
+Swap Bot
+![Raspberry Pi Multi-AI Hub](demo/5.png)
+Chat with GPT OSS 20B
+![Raspberry Pi Multi-AI Hub](demo/6.png)
+
 
 
