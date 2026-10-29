@@ -1,0 +1,37 @@
+[
+  {
+    "id": "gemma_1b",
+    "name": "Gemma 3 1B (Local AI)",
+    "description":"This AI is developed by Google with 1,000 million or 1 billion parameters.\nthis is Local AI In Respberry Pi using ollama and local ai don't need sending prompts to a cloud.",
+    "type": "local",
+    "model": "gemma3:1b"
+  },
+  {
+   "id": "qwen_1.5b",
+   "name": "Qwen 2.5 1.5B (Local AI)",
+   "description":"This Ai is developed by Alibaba Group with 1,000 million or 1 billion parameters.\nthis is Local AI In Respberry Pi using ollama and local ai don't need sending prompts to a cloud.",
+   "type": "local",
+   "model": "qwen2.5-coder:1.5b"
+  },
+  {
+   "id" : "groq",
+   "name":"Groq GPT OSS 20B (Cloud AI)",
+   "description":"This AI is developed by Open AI with 20 billion parameters.(3.6 billion active per forward pass)\nIt runs on Groq's cloud servers and uses Wi-Fi,so the Raspberry Pi Cpu is not used to run.",
+   "type": "cloud",
+   "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini 3.8 Flash (Cloud AI)",
+    "description":"This Ai is developed by google.\nIt run on Gemini's cloud and uses Wi-Fi ,so Resberry Pi cpu is not used to run.",
+    "type": "cloud",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "TEST",
+    "name": "This is not ai for test only",
+    "description":"nothing",
+    "type": "local",
+    "model": "nothing"
+  }
+]
